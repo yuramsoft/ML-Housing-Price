@@ -2,7 +2,7 @@
 """
 Created on Sat Nov  5 12:36:07 2022
 
-@author: IBRAHIM MUSTAPHA
+@author: IBRAHIM MUSTAPHA, PhD
 """
 import numpy as np
 import pandas as pd
@@ -62,7 +62,7 @@ sns.pairplot(df)
 
          
 """
-From the plot, the most promising variable for predicting the House Value is the TransDate
+From the plot, the most promising variable for predicting the House Value is the DistoMRT
 After pre-processing the data, these two columns are not needed anymore: “Latitude, Longitude”, 
 so, we drop them from our analysis.
 """
