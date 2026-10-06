@@ -167,8 +167,8 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/yuramsoft/ML-Housing-Price.git
+   cd mlhousing-flask
    ```
 
 2. Place `real-estate.csv` in the project folder.
@@ -176,10 +176,8 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 3. Run the script:
 
    ```bash
-   python main.py
+   python housing_lr.py
    ```
-
-   (Replace `main.py` with the actual name of your script.)
 
 The script prints dataset information and model scores, displays the exploratory plots, and saves the trained Random Forest model as `estate_forest.pkl`.
 
@@ -187,7 +185,7 @@ The script prints dataset information and model scores, displays the exploratory
 
 ```
 .
-├── main.py              # Main script (data analysis + model training)
+├── housing_lr.py              # Main script (data analysis + model training)
 ├── real-estate.csv      # Dataset
 ├── estate_forest.pkl    # Saved Random Forest model (generated after running)
 └── README.md
